@@ -19,4 +19,20 @@
       <Folder Include="Controllers\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="Context\AppDbContext\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Context\AppDbContext\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Context\AppDbContext\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Context\AppDbContext\**" />
+    </ItemGroup>
+
 </Project>
