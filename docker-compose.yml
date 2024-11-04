@@ -1,10 +1,15 @@
-version: '3.1'
+version: '3.8'
 
 services:
   db:
-    image: mysql
-    restart: always
+    image: mariadb:latest
+    container_name: my_mariadb
     environment:
-      MYSQL_ROOT_PASSWORD: example
+      MYSQL_ROOT_PASSWORD: Cl@ro289838
+      MYSQL_DATABASE: catalogo
     ports:
-      - "3306:3306"  # Map host port 3306 to container port 3306
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+volumes:
+  db_data:
