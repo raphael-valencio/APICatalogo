@@ -19,7 +19,7 @@ Este é o repositório para o projeto API Catalogo. Esta API fornece funcionalid
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/APICatalogo.git
+    git clone https://github.com/raphael-valencio/APICatalogo.git
     ```
 2. Navegue até o diretório do projeto:
     ```bash
